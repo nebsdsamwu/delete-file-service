@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteLogFileService", "DeleteLogFileService\DeleteLogFileService.csproj", "{62C18BF6-FD96-42BB-9A9A-724557D36200}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E1A8A100-5DD8-43FB-831F-B3A5815DC8C6} = {E1A8A100-5DD8-43FB-831F-B3A5815DC8C6}
+		{6BA1C545-B2F2-48B4-82F2-117BB2DC3270} = {6BA1C545-B2F2-48B4-82F2-117BB2DC3270}
+		{A919E0B2-A89D-4563-9CAA-16AC91289075} = {A919E0B2-A89D-4563-9CAA-16AC91289075}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteLogFileService.Utility", "DeleteLogFileService.Utility\DeleteLogFileService.Utility.csproj", "{E1A8A100-5DD8-43FB-831F-B3A5815DC8C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteLogFileService.Configuration", "DeleteLogFileService.Configuration\DeleteLogFileService.Configuration.csproj", "{6BA1C545-B2F2-48B4-82F2-117BB2DC3270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteLogFileService.ConsoleTest", "DeleteLogFileService.ConsoleTest\DeleteLogFileService.ConsoleTest.csproj", "{A919E0B2-A89D-4563-9CAA-16AC91289075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteLogFileService.Operation", "DeleteLogFileService.Operation\DeleteLogFileService.Operation.csproj", "{1BE461D3-A23E-4790-85AA-1E183A0536DF}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://sxtfs02:8080/tfs/tfs2005migrationcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DeleteLogFileService\\DeleteLogFileService.csproj
+		SccProjectName1 = DeleteLogFileService
+		SccLocalPath1 = DeleteLogFileService
+		SccProjectUniqueName2 = DeleteLogFileService.Utility\\DeleteLogFileService.Utility.csproj
+		SccProjectName2 = DeleteLogFileService.Utility
+		SccLocalPath2 = DeleteLogFileService.Utility
+		SccProjectUniqueName3 = DeleteLogFileService.Configuration\\DeleteLogFileService.Configuration.csproj
+		SccProjectName3 = DeleteLogFileService.Configuration
+		SccLocalPath3 = DeleteLogFileService.Configuration
+		SccProjectUniqueName4 = DeleteLogFileService.ConsoleTest\\DeleteLogFileService.ConsoleTest.csproj
+		SccProjectName4 = DeleteLogFileService.ConsoleTest
+		SccLocalPath4 = DeleteLogFileService.ConsoleTest
+		SccProjectUniqueName5 = DeleteLogFileService.Operation\\DeleteLogFileService.Operation.csproj
+		SccProjectName5 = DeleteLogFileService.Operation
+		SccLocalPath5 = DeleteLogFileService.Operation
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62C18BF6-FD96-42BB-9A9A-724557D36200}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{62C18BF6-FD96-42BB-9A9A-724557D36200}.Debug|Any CPU.Build.0 = Debug|x86
+		{62C18BF6-FD96-42BB-9A9A-724557D36200}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{62C18BF6-FD96-42BB-9A9A-724557D36200}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{62C18BF6-FD96-42BB-9A9A-724557D36200}.Debug|x86.ActiveCfg = Debug|x86
+		{62C18BF6-FD96-42BB-9A9A-724557D36200}.Debug|x86.Build.0 = Debug|x86
+		{62C18BF6-FD96-42BB-9A9A-724557D36200}.Release|Any CPU.ActiveCfg = Release|x86
+		{62C18BF6-FD96-42BB-9A9A-724557D36200}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{62C18BF6-FD96-42BB-9A9A-724557D36200}.Release|Mixed Platforms.Build.0 = Release|x86
+		{62C18BF6-FD96-42BB-9A9A-724557D36200}.Release|x86.ActiveCfg = Release|x86
+		{62C18BF6-FD96-42BB-9A9A-724557D36200}.Release|x86.Build.0 = Release|x86
+		{E1A8A100-5DD8-43FB-831F-B3A5815DC8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A8A100-5DD8-43FB-831F-B3A5815DC8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A8A100-5DD8-43FB-831F-B3A5815DC8C6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E1A8A100-5DD8-43FB-831F-B3A5815DC8C6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E1A8A100-5DD8-43FB-831F-B3A5815DC8C6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E1A8A100-5DD8-43FB-831F-B3A5815DC8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A8A100-5DD8-43FB-831F-B3A5815DC8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A8A100-5DD8-43FB-831F-B3A5815DC8C6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E1A8A100-5DD8-43FB-831F-B3A5815DC8C6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E1A8A100-5DD8-43FB-831F-B3A5815DC8C6}.Release|x86.ActiveCfg = Release|Any CPU
+		{6BA1C545-B2F2-48B4-82F2-117BB2DC3270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA1C545-B2F2-48B4-82F2-117BB2DC3270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA1C545-B2F2-48B4-82F2-117BB2DC3270}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6BA1C545-B2F2-48B4-82F2-117BB2DC3270}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6BA1C545-B2F2-48B4-82F2-117BB2DC3270}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6BA1C545-B2F2-48B4-82F2-117BB2DC3270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA1C545-B2F2-48B4-82F2-117BB2DC3270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA1C545-B2F2-48B4-82F2-117BB2DC3270}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6BA1C545-B2F2-48B4-82F2-117BB2DC3270}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6BA1C545-B2F2-48B4-82F2-117BB2DC3270}.Release|x86.ActiveCfg = Release|Any CPU
+		{A919E0B2-A89D-4563-9CAA-16AC91289075}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A919E0B2-A89D-4563-9CAA-16AC91289075}.Debug|Any CPU.Build.0 = Debug|x86
+		{A919E0B2-A89D-4563-9CAA-16AC91289075}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{A919E0B2-A89D-4563-9CAA-16AC91289075}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{A919E0B2-A89D-4563-9CAA-16AC91289075}.Debug|x86.ActiveCfg = Debug|x86
+		{A919E0B2-A89D-4563-9CAA-16AC91289075}.Debug|x86.Build.0 = Debug|x86
+		{A919E0B2-A89D-4563-9CAA-16AC91289075}.Release|Any CPU.ActiveCfg = Release|x86
+		{A919E0B2-A89D-4563-9CAA-16AC91289075}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{A919E0B2-A89D-4563-9CAA-16AC91289075}.Release|Mixed Platforms.Build.0 = Release|x86
+		{A919E0B2-A89D-4563-9CAA-16AC91289075}.Release|x86.ActiveCfg = Release|x86
+		{A919E0B2-A89D-4563-9CAA-16AC91289075}.Release|x86.Build.0 = Release|x86
+		{1BE461D3-A23E-4790-85AA-1E183A0536DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE461D3-A23E-4790-85AA-1E183A0536DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE461D3-A23E-4790-85AA-1E183A0536DF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1BE461D3-A23E-4790-85AA-1E183A0536DF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1BE461D3-A23E-4790-85AA-1E183A0536DF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1BE461D3-A23E-4790-85AA-1E183A0536DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE461D3-A23E-4790-85AA-1E183A0536DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BE461D3-A23E-4790-85AA-1E183A0536DF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1BE461D3-A23E-4790-85AA-1E183A0536DF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1BE461D3-A23E-4790-85AA-1E183A0536DF}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
